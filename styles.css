@@ -1,0 +1,124 @@
+@font-face {
+    font-family: head;
+    src: url(Roboto-Light.ttf);
+}
+@font-face {
+    font-family: roboto;
+    src: url(Roboto-Condensed.ttf);
+}
+@font-face {
+    font-family: asus;
+    src: url(AsusRog-Regular.ttf);
+}
+@font-face {
+    font-family: ROG;
+    src: url(Roboto-BoldCondensed.ttf);
+}
+.img-fluid {
+    width: 100%;
+}
+.img-fluid1{
+    width: 100%;
+}
+.img2{
+    width: 100%;
+}
+body {
+    background-color: black;
+    scroll-behavior: smooth;
+}
+h2 {
+    color: aliceblue;
+}
+.custom-navbar {
+    padding: 1.5%;
+    font-family: roboto;
+    font-size: large;
+    background-color: black;
+}
+.navbar-brand1{
+    font-family: asus;
+    font-size: 40px;
+    color: rgb(205, 8, 8);
+    text-decoration: none;
+}
+.navbar-brand{
+    font-family: ROG;
+    font-size: 30px;
+    color: aliceblue;
+}
+.navbar-brand:hover{
+    color: red;
+    text-decoration: underline;
+}
+.navbar-brand:active{
+    color: red;
+    text-decoration: underline;
+}
+.nav-link{
+    font-size: 20px;
+    color: aliceblue;
+}
+.nav-link:hover{
+    color: red;
+    text-decoration: underline;
+}
+.content{
+    font-family: roboto;
+}
+.intro{
+    padding: 5%;
+    margin-bottom: 10%;
+}
+p{
+    font-size: 25px;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    font-family: head;
+    color: aliceblue;
+}
+h3{
+    font-size: 40px;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    font-family: roboto;
+    color: aliceblue;
+}
+.processor{
+    padding: 5%;
+    margin-bottom: 10%;
+}
+
+.cooler{
+    padding: 5%;
+    margin-bottom: 10%;
+}
+.TechSpecs{
+    padding: 5%;
+    margin-top: 10%;
+}
+.table, .table th, .table td {
+    font-size: 20px;
+    padding: 2%;
+    font-family: head;
+    background-color: black;
+    color: aliceblue;
+}
+.btn-custom{
+    background-color: red;
+    color: white;
+}
+.btn-custom:hover{
+    background-color: rgb(248, 27, 27);
+    color: black;
+}
+.card{
+    color: aliceblue;
+    background-color: black;
+}
+.card-body1 p{
+    font-size: 20px;
+    float: right;
+}
